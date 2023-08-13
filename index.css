@@ -1,1 +1,82 @@
 
+.container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+h1{
+  display: center;
+  align-items: center;
+  justify-content: space-between;
+  color: green;
+
+}
+
+.menu1{
+  flex: 1;
+  border: 1px solid black; /* Sets a solid black border with a width of 1 pixel */
+  padding: 10px; /* Adds some padding inside the border */
+  margin-right: 20px;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.menu2{
+  flex: 1;
+  border: 1px solid black; /* Sets a solid black border with a width of 1 pixel */
+  padding: 10px; /* Adds some padding inside the border */
+  margin-right: 20px;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.menu3{
+  flex: 1;
+  border: 1px solid black; /* Sets a solid black border with a width of 1 pixel */
+  padding: 10px; /* Adds some padding inside the border */
+  margin-right: 20px;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: grey;
+}
+.dish1{
+width: 100px;
+margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: chocolate;
+}
+.dish2{
+  width: 100px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: chocolate;
+}
+.dish3{
+  width: 100px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: chocolate;
+
+}
+
+@media (max-width: 991px) {
+  .container {
+ 
+  }
+  .dish3{
+   
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}
